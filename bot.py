@@ -5,7 +5,7 @@ base_cowin_url = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/c
 
 now = datetime.now()
 today_date = now.strftime("%d-%m-%Y")
-bot_api_key = '1731264400:AAGCVkPIpIfcFRt8HxOzAezMrAWV3fYwcs0'
+bot_api_key = '...'
 api_url = f"https://api.telegram.org/bot{bot_api_key}/sendMessage?chat_id=@__group_id__&text="
 
 group_id = "vaccine_updater"
